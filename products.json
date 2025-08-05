@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Velvet Matte Lipstick",
+    "price": 1800,
+    "image": "images/lipstick.jpg",
+    "variants": ["Ruby Red", "Deep Mauve", "Nude Peach"],
+    "description": "Luxurious velvet matte lipstick with long-lasting, vibrant color and a comfortable, non-drying finish."
+  },
+  {
+    "id": 2,
+    "name": "Hydrating Foundation",
+    "price": 3500,
+    "image": "images/foundation.webp",
+    "variants": ["Light Beige", "Warm Honey", "Deep Tan"],
+    "description": "Lightweight, buildable foundation that provides natural coverage and keeps skin hydrated all day."
+  },
+  {
+    "id": 3,
+    "name": "Volumizing Mascara",
+    "price": 1500,
+    "image": "images/mascara.jpeg",
+    "variants": ["Black", "Brown"],
+    "description": "Achieve dramatic volume and length with this smudge-proof and clump-free mascara."
+  },
+  {
+    "id": 4,
+    "name": "Eyeshadow Palette",
+    "price": 2800,
+    "image": "images/eyeshadow.jpeg",
+    "variants": ["Warm Neutrals", "Smoky Grays", "Vibrant Brights"],
+    "description": "Versatile eyeshadow palette featuring highly pigmented, blendable shades for endless looks."
+  },
+  {
+    "id": 5,
+    "name": "Radiant Blush",
+    "price": 1600,
+    "image": "images/blushradinat.webp",
+    "variants": ["Soft Pink", "Coral Glow", "Berry Kiss"],
+    "description": "A silky-smooth blush that adds a natural flush of color and a healthy radiance to your cheeks."
+  },
+  {
+    "id": 6,
+    "name": "Glossy Lip Tint",
+    "price": 1000,
+    "image": "images/glssytint.jpg",
+    "variants": ["Cherry Pop", "Peach Perfect", "Clear Shine"],
+    "description": "A non-sticky lip tint that delivers a sheer wash of color and a brilliant, long-lasting shine."
+  },
+  {
+    "id": 7,
+    "name": "Setting Spray",
+    "price": 1300,
+    "image": "images/setting.webp",
+    "variants": ["Matte Finish", "Dewy Finish"],
+    "description": "Lock in your makeup all day with this lightweight, refreshing setting spray."
+  },
+  {
+    "id": 8,
+    "name": "Liquid Eyeliner",
+    "price": 950,
+    "image": "images/eyeliner.jpg",
+    "variants": ["Jet Black", "Dark Brown"],
+    "description": "Achieve a precise, long-lasting line with this smudge-proof liquid eyeliner."
+  }
+]
