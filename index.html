@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Store</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar">
+  <!-- Logo as image -->
+  <a href="index.html" class="logo">
+    <img src="images/logo.png" alt="Makeup Store Logo">
+  </a>
+
+  <ul>
+    <li><a href="#shop">Shop</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+    
+
+    
+    <!-- Search -->
+<li class="search-item">
+  <div class="search-container">
+    <input type="text" id="search-bar" placeholder="Search products...">
+    <i class="fas fa-search search-icon"></i>
+  </div>
+</li>
+    <!-- Cart -->
+    <li class="cart-item">
+      <button id="cart-btn" class="cart-btn">
+        <i class="fas fa-shopping-cart"></i> 
+        <span id="cart-count">0</span>
+      </button>
+    </li>
+    <!-- Admin -->
+    <li class="admin-item">
+      <a href="admin.html" class="cart-btn">Admin</a>
+    </li>
+  </ul>
+</nav>
+<!-- Cart Drawer -->
+<div id="cart-drawer" class="cart-drawer">
+  <div class="cart-header">
+    <h3>Your Cart</h3>
+    <button id="close-cart">&times;</button>
+  </div>
+  <div id="cart-items"></div>
+
+  <!-- Cart Footer with Total -->
+  <div class="cart-footer">
+    <div class="cart-total">
+      <strong>Total: Rs <span id="cart-total">0</span></strong>
+    </div>
+    <button id="checkout-btn" class="checkout-btn">Checkout</button>
+  </div>
+</div>
+<div id="cart-overlay" class="cart-overlay"></div>
+
+
+<!-- Modal -->
+<div id="order-modal" class="order-modal">
+  <div class="order-modal-content">
+    <h3>Order Placed Successfully</h3>
+    <p>Thank you for shopping with us!</p>
+    <button id="close-modal" class="close-modal">OK</button>
+  </div>
+</div>
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h4>Exclusive Makeup Products</h4>
+      <h1>Beauty & Glam Wellness</h1>
+      <p>Enhance your beauty with our premium range of makeup products, crafted for elegance and care.</p>
+      <a href="#shop" class="hero-btn">Shop Now</a>
+    </div>
+  </div>
+  <div class="hero-image-wrapper">
+    <img src="images/her.png" alt="Makeup Products">
+  </div>
+</section>
+
+<!-- Products Section -->
+<section id="shop" class="products-section">
+  <h2>Featured Products</h2>
+  <p class="products-subtitle">Discover our best-selling makeup essentials, carefully selected to enhance your beauty.</p>
+  
+  <div id="product-list" class="product-grid"></div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about-section">
+  <div class="about-left"></div>
+  <div class="about-right">
+    <h2>About Us</h2>
+    <p>We are passionate about delivering top-quality makeup products to enhance your beauty and confidence. 
+       With a curated collection and fast delivery, we ensure your shopping experience is as flawless as our products.</p>
+    <a href="#shop" class="about-btn">Shop Now</a>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+  <h2>Contact Us</h2>
+  <p>We’d love to hear from you! Drop your email below and we’ll get back to you soon.</p>
+  
+  <div class="contact-form">
+    <input type="email" placeholder="Enter your email" required>
+    <button type="submit">Send</button>
+  </div>
+
+  <p class="contact-info">Or reach us at <a href="mailto:support@mystore.com">support@mystore.com</a></p>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-content">
+    <p>&copy; 2025 My Makeup Store. All Rights Reserved.</p>
+  </div>
+</footer>
+<!-- Product Details Modal -->
+<div id="product-details-modal" class="modal">
+  <div class="modal-content">
+    <button id="close-product-modal" class="close-btn">&times;</button>
+    <div id="product-details-container"></div>
+  </div>
+</div>
+<!-- Toast Notification -->
+<div id="toast" class="toast">Product added to cart!</div>
+
+<script src="app.js"></script>
+</body>
+</html>
